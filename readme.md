@@ -35,8 +35,8 @@
 已安装 Google Chrome 浏览器
 安装步骤
 克隆本仓库：
-git clone https://github.com/yourname/hitfm-downloader.git
-cd hitfm-downloader
+git clone https://github.com/AthenaCN/HitFM_Downloader.git
+cd HitFM_Downloader
 pip install -r requirements.txt
 
 💡 首次运行时，脚本会自动下载匹配的 chromedriver（需联网）。
