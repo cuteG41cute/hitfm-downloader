@@ -35,8 +35,8 @@
 已安装 Google Chrome 浏览器
 安装步骤
 克隆本仓库：
-git clone https://github.com/yourname/hitfm-downloader.git
-cd hitfm-downloader
+git clone https://github.com/AthenaCN/HitFM_Downloader.git
+cd HitFM_Downloader
 pip install -r requirements.txt
 
 💡 首次运行时，脚本会自动下载匹配的 chromedriver（需联网）。
@@ -46,11 +46,11 @@ pip install -r requirements.txt
 START_DATE = "2025-12-01"   # 开始日期（格式：YYYY-MM-DD）
 END_DATE = "2025-12-01"     # 结束日期
 CHANNEL_NAME = "662"        # HITFM 频道ID（勿改）
-SAVE_BASE_DIR = "./HITFM_202512"  # 保存目录
+SAVE_BASE_DIR = "./HITFM"  # 保存目录
 运行脚本：
 python hitfm_downloader.py
 等待完成！节目将保存在：
-./HITFM_202512/2025-12-01/Music Flow 音乐流.m4a
+./HITFM/2025-12-01/Music Flow 音乐流.m4a
 
 📁 项目结构
 hitfm-downloader/
